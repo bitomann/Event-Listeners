@@ -1,0 +1,21 @@
+body {
+    background-color: saddlebrown;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+#one {
+    width: 50%;
+    height: 50%;
+    border: 2px solid peru;
+}
+
+#two {
+    width: 50%;
+    height: 50%;
+    border: 2px solid teal;
+}
