@@ -15,7 +15,7 @@
 
 // Practice: Scrolling and Scaling
 // The learning objective for this exercise is to practice listening for the scroll event broadcast by the browser, and updating DOM elements in response.
-console.log("Scrolling")
+// console.log("Scrolling")
 
 const audrey = document.getElementById("audrey")
 
@@ -23,7 +23,7 @@ const audrey = document.getElementById("audrey")
         Add an event listener to the `document` object to listen
         for the "scroll" event.
     */
-    document.addEventListener("scoll", function () {
+    document.addEventListener("scroll", function () {
         audrey.style.width = `${window.scrollY/3}px`
     })
         /*
@@ -31,7 +31,7 @@ const audrey = document.getElementById("audrey")
             `window.scrollY`. No lower than 50px, though.
         */
        document.addEventListener("scroll", function () {
-        audrey.style.height = `${window.scrollY/3}px`
+        audrey.style.height = `${window.scrollY/4}px`
     })
         /*
             Adjust the height of audrey to be 1/4 the value of
