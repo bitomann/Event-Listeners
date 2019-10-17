@@ -1,4 +1,4 @@
-console.log("hello")
+console.log("FINALLY")
 
 let a1 = document.getElementById("one")
 let a2 = document.getElementById("two")
