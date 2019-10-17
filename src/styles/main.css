@@ -1,4 +1,7 @@
-body {
+/* Create two article elements with unique id values. Use Flexbox to display them in a row, each taking 50% of the width of the browser.
+Give each article a different border color. */
+
+/* body {
     background-color: saddlebrown;
 }
 
@@ -18,4 +21,36 @@ div {
     width: 50%;
     height: 50%;
     border: 2px solid teal;
-}
+} */
+
+#container {
+    display: flex;
+    min-height: 1500px;
+  }
+  
+  #audrey {
+    background-color: purple;
+    color: snow;
+    min-height: 100px;
+    width: 50px;
+    position: fixed;
+  }
+
+
+
+
+
+
+
+
+
+  
+  /* .myEyes {
+      color: blue;
+      font-weight: bold;;
+  }
+
+  .colorChange {
+      color: green;
+      font-weight: lighter;
+  } */
